@@ -34,6 +34,10 @@ made too many changes for them to be a reasonable commit. This also gives you an
 of how many changes should be included in a singe commit. One file per commit (probably even
 one function changed per commit) is a good heuristic to go by.
 
+**HOTFIX commits** should be prefixed with `HOTFIX: ` and should be used for commits that are
+critical to the project and needs to be deployed as soon as possible. This is can be done on
+prod branches by the repo admin.
+
 ## Pull-requests
 
 ## Version names
