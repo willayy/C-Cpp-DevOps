@@ -2,6 +2,22 @@
 
 ### Table of content
 
+1. [Developers tech-tack](#developers-tech-tack)
+
+2. [Creating issues](#creating-issues)
+
+    2.1 [What should i do when i have created an issue from a template](#what-should-i-do-when-i-have-created-an-issue-from-a-template)
+
+    2.2 [No templates match what im trying to create?](#no-templates-match-what-im-trying-to-create)
+
+3. [Commits](#commits)
+
+    3.1 [HOTFIX commits](#hotfix-commits)
+
+4. [Pull-requests](#pull-requests)
+
+5. [Version names](#version-names)
+
 ## Developers tech-tack
 
 #### Compiler
@@ -13,12 +29,12 @@ SonarLint with SonarQube
 ## Creating issues
 When creating an issues you should always strive to use the
 provided issue-templates for the repository for the sake of consistency.
-* **What should i do when i have created an issue from a template**
+* #### What should i do when i have created an issue from a template
   * Fill in all the fields containing brackets ([like this]) in the template. If 
     you don't know what to write in a field, write N/A and explain why you don't know.
     If you leave any brackted fields unmodified (leaving the brackets in the text) the
     issue will be considered invalid.
-* **No templates match what im trying to create?**
+* #### No templates match what im trying to create?**
   * Are you sure you want to create an issue, there
     might be a more suited tool like GH discussions for asking questions?
   * Make a feature request issue about adding a new issue-templates, implement the
@@ -34,11 +50,13 @@ made too many changes for them to be a reasonable commit. This also gives you an
 of how many changes should be included in a singe commit. One file per commit (probably even
 one function changed per commit) is a good heuristic to go by.
 
-**HOTFIX commits** should be prefixed with `HOTFIX: ` and should be used for commits that are
+#### HOTFIX commits
+should be prefixed with `HOTFIX: ` and should be used for commits that are
 critical to the project and needs to be deployed as soon as possible. This is can be done on
 prod branches by the repo admin.
 
 ## Pull-requests
+Create a PR and fill in all the fields wrapped in brackets ([like this]) in the PR-template.
 
 ## Version names
 Version names in this project follows the rules of semantic versioning which in summary is:
