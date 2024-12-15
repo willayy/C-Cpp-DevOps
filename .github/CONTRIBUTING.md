@@ -13,6 +13,11 @@ SonarLint with SonarQube
 ## Creating issues
 When creating an issues you should always strive to use the
 provided issue-templates for the repository for the sake of consistency.
+* **What should i do when i have created an issue from a template**
+  * Fill in all the fields containing brackets ([like this]) in the template. If 
+    you don't know what to write in a field, write N/A and explain why you don't know.
+    If you leave any brackted fields unmodified (leaving the brackets in the text) the
+    issue will be considered invalid.
 * **No templates match what im trying to create?**
   * Are you sure you want to create an issue, there
     might be a more suited tool like GH discussions for asking questions?
