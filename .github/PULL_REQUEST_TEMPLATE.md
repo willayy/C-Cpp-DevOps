@@ -1,11 +1,4 @@
----
-name: PR Template
-about: Template for creating a pull request
-title: '[Fix Bug,Add Feature,Fix Invalid]: [Insert name/desc here]'
-labels: ''
-assignees: ''
-
----
+[Title should be in the format of : [Add | Fix | Update | Remove] [Feature/Issue] - [Short description of the change]]
 
 ### Description
 [Briefly explain the changes made in this PR]
